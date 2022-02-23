@@ -1,0 +1,19 @@
+site_name: cryptocfb
+site_description: A Python module to encrypt and decrypt data with AES-128 CFB mode.
+site_author: Quan Lin
+
+repo_url: https://github.com/jacklinquan/cryptocfb
+edit_uri: ""
+
+theme:
+    name: readthedocs
+
+nav:
+    - Home: index.md
+    - API Domumentation: api.md
+
+copyright: Copyright &copy; 2022 <a href="https://github.com/jacklinquan">Quan Lin</a>.
+
+plugins:
+    - search
+    - mkapi
