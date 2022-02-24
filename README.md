@@ -15,6 +15,10 @@
 
 A Python module to encrypt and decrypt data with AES-128 CFB mode.
 
+This module can encrypt and decrypt large data part by part.
+Except for the last part, every part must be multiple of 16 bytes.
+It can do encryption and decryption inplace to reduce memory footprint.
+
 ## Installation
 `pip install cryptocfb`
 
