@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="cryptocfb",
-    version="0.1.0",
+    version="0.2.0",
     description="A Python module to encrypt and decrypt data with AES-128 CFB mode.",
     long_description="https://github.com/jacklinquan/cryptocfb",
     long_description_content_type="text/markdown",
