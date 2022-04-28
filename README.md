@@ -19,6 +19,10 @@ This module supports 8/64/128-bit CFB mode.
 It can encrypt and decrypt large data part by part.
 It also can do encryption and decryption inplace to reduce memory footprint.
 
+For a compatible MicroPython version, please find [Python package micropython-cryptocfb](https://github.com/jacklinquan/micropython-cryptocfb).
+
+For a compatible C version, please find [Python package cryptocfb_C_implementation](https://github.com/jacklinquan/cryptocfb_C_implementation).
+
 ## Installation
 `pip install cryptocfb`
 
